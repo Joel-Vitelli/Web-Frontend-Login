@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Pedidos Fast!</title>    <!-- En esta parte insertamos los links correspondientes para Boostrap y los estilos -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="signin.css" >
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <style>
+            .bd-placeholder-img {
+              font-size: 1.125rem;
+              text-anchor: middle;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+            }
+
+            @media (min-width: 768px) {
+              .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+              }
+            }
+        </style>
+        
+    </head>
+    <body>
+        
+        
+        <!--<div id="particles-js"></div> -->
+        
+        <div class="container">    
+            <div id="particles-js"></div>
+            <div class="container">
+            <header class="page-header">
+                
+                    <ul class="nav nav-pills pull-right">
+                      <li><a href="#">Principal</a></li>
+                      <li><a href="#">Ayuda</a></li>
+                      <li><a href="#">Acerca</a></li>
+                    </ul>                            
+                   
+                <h3 class="text-left">PedidosFast!</h3>
+            </header>
+            </div>
+        
+        
+            <div class="container">
+                <form class="form-signin text-center">
+                    <img class="mb-4 text-center" src="media/PFIcono.png" alt="" width="72" height="72">
+                    <h3 class="h3 mb-3 font-weight-normal">Bienvenido!</h3>  
+                    <label for="inputEmail" class="sr-only">Correo electronico</label><br>
+                    <input type="email" id="inputEmail" class="form-control" placeholder="Correo electronico" required autofocus><br>
+                    <label for="inputPassword" class="sr-only">Contraseña</label>
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required>
+                    <div class="checkbox mb-3">
+                        <label>
+                          <input type="checkbox" value="remember-me"> Recuerdame
+                        </label>
+                      </div>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button><br>
+                    <button class="btn btn-danger btn-primary btn-block" type="submit">Registrate</button><br>
+                      <p class="mt-5 mb-3 text-muted">&copy; Pedidos Fast 2019</p>
+                </form>
+                    
+            </div>
+        </div>
+        <script src="particles.js"></script> <!-- Script para las particulas -->
+        <script src="app.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+    </body>
+</html>
